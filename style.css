@@ -1,0 +1,28 @@
+.custom-input {margin-top: 10px;}
+
+.main-mail-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.mail-form-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px; width: 100%;
+}
+.mail-form-fields{
+    width: 300px;
+    align-items: center;
+}
+#incorrect-mail{
+    color: red;
+    font-size: 12px;
+    display: none;
+}
+#success-mail{
+    color: green;
+    font-size: 12px;
+    display: none;
+}
